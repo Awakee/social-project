@@ -1,0 +1,24 @@
+.content {
+    display: flex;
+    margin-top: 25px;
+}
+
+.info {
+    min-width: 550px;
+    margin-left: 50px;
+    padding: 15px;
+    box-shadow: 0 0 15px black;
+    /*background-color:rgba(0, 0, 0, 0.5);*/
+    color: black;
+}
+
+.detail {
+    margin-top: 25px;
+}
+
+.avatar {
+    width: 270px;
+    height: 350px;
+    background-size: 100%;
+    box-shadow: 0 0 25px;
+}

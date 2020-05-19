@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root, #root>div {
+  height: 100%;
+}
+
+.container {
+  height: 92vh;
+}
+
+body {
+  background: whitesmoke;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  font-size: 1.2rem;
+}

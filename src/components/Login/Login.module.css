@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background: url("https://i.ibb.co/GscpMCR/mountbg.jpg") no-repeat;
+}
+
+.formWrapper {
+    display: flex;
+    width: 500px;
+    height: 800px;
+    border: 1px solid lightslategray;
+    background: rgba(0, 0, 0, 0.4);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    border-radius: 10px;
+    color:white;
+    font-weight: bold;
+    text-shadow: 0 0 10px black;
+}
+
+.formWrapper h1 {
+    font-size: 2.5rem;
+    margin-bottom: 55px;
+}
+
+.formWrapper p {
+    margin-bottom: 8px;
+}
+
+.formInput {
+    margin-bottom: 45px;
+}
+
+.formInput input {
+    width: 230px;
+    height: 30px;
+    font-size: 1.2rem;
+    border-radius: 7px;
+    transition: 0.8s;
+}
+
+.formWrapper button {
+    width: 230px;
+    height: 50px;
+    border: 1px solid lightseagreen;
+    border-radius: 7px;
+    font-size: 1.3rem;
+    margin-bottom: 25px;
+    transition: 0.8s;
+    background: #82a0b8;
+    box-shadow: 0 0 15px #2196f3;
+}
+
+.formWrapper button:hover
+{
+    box-shadow: 0 0 65px #2196f3;
+    text-shadow: 0 0 10px #2196f3;
+    color: white;
+}
+
+.formWrapper input:hover
+{
+    box-shadow: 0 0 45px #2196f3;
+}
+
+.formSummaryError {
+    border: 1px solid red;
+    color: white;
+    margin-bottom: 15px;
+}

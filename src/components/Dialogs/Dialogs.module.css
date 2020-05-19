@@ -1,0 +1,29 @@
+.dialogs {
+    display: flex;
+    width: 900px;
+}
+
+.dialog {
+    width: 150px;
+    padding: 10px;
+}
+
+.dialog p {
+    font-size: 1.3rem;
+}
+
+.dialogsItems {
+    padding: 10px;
+}
+
+.dialogsItems .active {
+    color: rebeccapurple;
+}
+
+.messages {
+    padding: 10px;
+}
+
+.message {
+    padding: 10px;
+}

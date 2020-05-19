@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 8vh;
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+  
+.header img {
+  max-width: 80px;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo p {
+  margin: auto 0;
+  font-size: 2rem;
+}
+
+.auth {
+  margin-right: 35px;
+  font-size: 1.4rem;
+}
+
+.auth p {
+  font-size: 1.3rem;
+}
